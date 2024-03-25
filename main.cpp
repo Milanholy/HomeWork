@@ -2,7 +2,7 @@ struct bank_account
 {
  int bank_id = 123456789;
  std::string first_name{"Андрей"};
- float bank_value = 5000;
+ double bank_value = 5000;
 };
 
 bool bank_account_overlay(bank_account& bank_acc) {
