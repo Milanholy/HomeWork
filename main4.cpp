@@ -1,3 +1,4 @@
+#include <iostream>
 class Calculator {
 public:
 	double num1, num2;
